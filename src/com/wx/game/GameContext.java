@@ -27,7 +27,7 @@ public class GameContext {
 	
 	public void lock() {
 		canvas = surfaceHolder.lockCanvas();
-		//canvas.drawRect(viewRect, paint);
+		canvas.drawRect(viewRect, paint);
 	}
 	
 	public void unlock() {
